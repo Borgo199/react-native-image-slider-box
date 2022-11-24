@@ -5,6 +5,10 @@
 
 > I need someone to help me maintain the project. Feel free to send me an email.
 
+Attention this is a fork to react-native-image-slider-box by [intellidev1991](https://github.com/intellidev1991) who fix the  PropTypes error thrown by react-native-snap-carousel.
+
+------
+
 [How to send a pull-request for this lib??? > Please Read this section before send a pull request
 ](#how-to-send-a-pull-request)
 

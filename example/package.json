@@ -13,7 +13,7 @@
     "react": "latest",
     "react-native": "latest",
     "react-native-fast-image": "latest",
-    "react-native-snap-carousel": "latest",
+    "react-native-snap-carousel-deprecated-prop-types": "latest",
     "react-native-image-slider-box": "file:../"
   },
   "devDependencies": {

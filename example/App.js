@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {StyleSheet, SafeAreaView, View} from 'react-native';
 import FastImage from 'react-native-fast-image';
 
-import {SliderBox} from './components/SliderBox'; // for develop time, first add:>>    yarn add react-native-snap-carousel
+import {SliderBox} from './components/SliderBox'; // for develop time, first add:>>    yarn add react-native-snap-carousel-deprecated-prop-types
 import {SliderBox} from 'react-native-image-slider-box';
 
 export default class App extends Component {
@@ -21,7 +21,7 @@ export default class App extends Component {
     };
   }
 
-  onLayout = e => {
+  onLayout = (e) => {
     this.setState({
       width: e.nativeEvent.layout.width,
       height: e.nativeEvent.layout.height,
@@ -35,7 +35,7 @@ export default class App extends Component {
           ImageComponent={FastImage}
           images={this.state.images}
           sliderBoxHeight={200}
-          onCurrentImagePressed={index =>
+          onCurrentImagePressed={(index) =>
             console.warn(`image ${index} pressed`)
           }
           //currentImageEmitter={index => console.warn(`image ${index} pressed`)}

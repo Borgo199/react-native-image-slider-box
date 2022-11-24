@@ -1,13 +1,13 @@
 {
-  "name": "react-native-image-slider-box",
+  "name": "@borgo-dev/react-native-image-slider-box",
   "version": "1.0.15",
-  "description": "A simple and fully customizable React Native component that implements an Image Slider UI.",
+  "description": "A simple and fully customizable React Native component that implements an Image Slider UI. With the Snap Carousel fix",
   "main": "index.js",
   "scripts": {
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/intellidev1991/react-native-image-slider-box.git"
+    "url": "git+https://github.com/Borgo199/react-native-image-slider-box"
   },
   "keywords": [
     "react-native-image-slider-box",
