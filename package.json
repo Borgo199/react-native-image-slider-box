@@ -37,6 +37,6 @@
     "metro-react-native-babel-preset": "latest"
   },
   "dependencies": {
-    "react-native-snap-carousel": "latest"
+    "react-native-snap-carousel-deprecated-prop-types": "latest"
   }
 }
